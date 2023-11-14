@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "L6xdn7qro6S5paAYiI99QCzlWHhd2a7FatDlZPKTZO3/Q7Ej8b67UoP2QKh9bQTjKlp3JNcynPPEfqPkirKgSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anikovich.I\\Documents\\Own\\TempProjects\\DormUnity\\DormitoryService\\DormitoryService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Anikovich.I\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
