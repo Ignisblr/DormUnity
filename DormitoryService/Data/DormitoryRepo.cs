@@ -27,10 +27,10 @@ namespace DormitoryService.Data
             return _context.Dormitories.FirstOrDefault(dormitory => dormitory.Id == id);
         }
 
-        public Dormitory GetDormitoryByName(string name)
-        {
-           return _context.Dormitories.FirstOrDefault(dormitory => dormitory.Name == name);
-        }
+        // public Dormitory GetDormitoryByName(string name)
+        // {
+        //    return _context.Dormitories.FirstOrDefault(dormitory => dormitory.Name == name);
+        // }
 
         public bool SaveChanges()
         {

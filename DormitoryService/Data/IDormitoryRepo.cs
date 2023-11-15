@@ -10,7 +10,7 @@ namespace DormitoryService.Data
         
         Dormitory GetDormitoryById(int id);
 
-        Dormitory GetDormitoryByName(string name);
+        // Dormitory GetDormitoryByName(string name);
 
         void AddDormitory(Dormitory dormitory);
     }

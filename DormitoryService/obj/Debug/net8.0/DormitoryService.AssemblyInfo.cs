@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DormitoryService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5397e4252fb46ef9e96099e256fe19a02c15fde8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DormitoryService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DormitoryService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
