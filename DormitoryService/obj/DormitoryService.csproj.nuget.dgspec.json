@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://nuget.e80group.com:8443/nugetfeed/nuget": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +42,38 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -73,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
