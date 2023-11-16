@@ -1,5 +1,5 @@
-using DormitoryService.Data;
 using Microsoft.EntityFrameworkCore;
+using RequestService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +11,7 @@ builder.Services.AddSwaggerGen();
 //Custom services
 builder.Services.AddDbContext<AppDbContext>(opts => opts.UseInMemoryDatabase("InMem"));
 
-builder.Services.AddScoped<IDormitoryRepo, DormitoryRepo>();
 builder.Services.AddControllers();
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 
