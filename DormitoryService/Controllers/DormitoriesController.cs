@@ -2,7 +2,6 @@ using AutoMapper;
 using DormitoryService.Data;
 using DormitoryService.DTO;
 using DormitoryService.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DormitoryService.Controllers

@@ -9,12 +9,12 @@ namespace RequestService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RequestController : ControllerBase
+    public class RequestsController : ControllerBase
     {
         private IRequestRepo _requestRepo;
         private readonly IMapper _mapper;
 
-        public RequestController(IRequestRepo requestRepo, IMapper mapper)
+        public RequestsController(IRequestRepo requestRepo, IMapper mapper)
         {
             _requestRepo = requestRepo;
             _mapper = mapper;
@@ -27,7 +27,7 @@ namespace RequestService.Controllers
 
             if (requests != null)
             {
-                return Ok(_mapper.Map<UserRequestReadDTO>(requests));
+                return Ok(_mapper.Map<ICollection<UserRequestReadDTO>>(requests));
             }
 
             return NotFound();
@@ -47,9 +47,9 @@ namespace RequestService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<UserRequestReadDTO> AddDormitory(UserRequestReadDTO requestReadDTO)
+        public ActionResult<UserRequestReadDTO> AddDormitory(UserRequestMakeDTO requestDTO)
         {
-            UserRequest request = _mapper.Map<UserRequest>(requestReadDTO);
+            UserRequest request = _mapper.Map<UserRequest>(requestDTO);
 
             _requestRepo.MakeRequest(request);
 

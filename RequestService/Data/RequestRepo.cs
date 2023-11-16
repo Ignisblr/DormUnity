@@ -18,7 +18,7 @@ namespace RequestService.Data
 
         public ICollection<UserRequest> GetRequests()
         {
-            return _dbContext.Requests.ToList();
+            return _dbContext.Requests.ToList<UserRequest>();
         }
 
         public void MakeRequest(UserRequest request)

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using AutoMapper.Configuration.Annotations;
 
 namespace RequestService.Models
 {
@@ -14,14 +15,14 @@ namespace RequestService.Models
         [Required]
         public string Description { get; set; }
 
-        [Required]
-        public IUser Autor { get; set; }
+        // [Ignore]
+        // public string Autor { get; set; }
 
-        [Required]
-        public IUser Executor { get; set; }
+        // [Ignore]
+        // public string Executor { get; set; }
 
-        [Required]
-        public Dictionary<DateTime, DateTime> Deadline { get; set; }
+        // [Ignore]
+        // public Dictionary<DateTime, DateTime> Deadline { get; set; }
 
         [Required]
         public bool IsActive { get; set; }
